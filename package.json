@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://KrishnaKanhaiya1.github.io/portfolio",
+  "homepage": "https://KrishnaKanhaiya1.github.io/PortfolioWebsite",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
