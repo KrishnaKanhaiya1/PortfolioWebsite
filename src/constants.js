@@ -38,6 +38,43 @@ export const PROJECTS = [
         category: "Web Development"
     },
     {
+        title: "Car Rental Agency",
+        desc: "Core PHP and MySQL rental platform with separate customer/agency workflows, inventory management, and booking references.",
+        tech: ["PHP", "MySQL", "Bootstrap 5", "JavaScript"],
+        links: {
+            github: "https://github.com/KrishnaKanhaiya1/Car-Rental-Agency",
+            demo: "https://krishnakanhaiya.fwh.is/"
+        },
+        category: "Web Development"
+    },
+    {
+        title: "UdaanCoach (WAT Analyzer)",
+        desc: "AI-powered soft-skill coaching platform that analyzes responses, explains trait impact, and suggests rewrites with multilingual support.",
+        tech: ["FastAPI", "React", "PostgreSQL", "Gemini API"],
+        links: { github: "https://github.com/KrishnaKanhaiya1/wat-analyzer" },
+        category: "AI/ML"
+    },
+    {
+        title: "SmartTour",
+        desc: "Agentic AI travel companion for itinerary planning, food and guide recommendations, translation, safety insights, and routing.",
+        tech: ["Next.js", "React", "Tailwind CSS", "Node.js"],
+        links: {
+            github: "https://github.com/KrishnaKanhaiya1/smartTour",
+            demo: "https://smarttour-test.vercel.app/"
+        },
+        category: "AI/ML"
+    },
+    {
+        title: "ITRCoPilot",
+        desc: "Multi-agent AI income tax filing assistant that processes documents, computes ITR-1, validates outputs, and supports e-verification flow.",
+        tech: ["Python", "FastAPI", "React", "LLM Agents"],
+        links: {
+            github: "https://github.com/KrishnaKanhaiya1/ITRCoPilot",
+            demo: "https://itr-co-pilot.vercel.app/"
+        },
+        category: "AI/ML"
+    },
+    {
         title: "CoastGuard AI",
         desc: "AI-powered maritime surveillance and emergency response system with real-time analytics.",
         tech: ["Streamlit", "Python", "Computer Vision", "TensorFlow"],

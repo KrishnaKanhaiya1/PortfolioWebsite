@@ -52,7 +52,13 @@ const Hero = () => {
                         transition={{ delay: 0.8, duration: 0.8 }}
                         className="hero-buttons"
                     >
-                        <a href="/resume.pdf" download className="btn btn-primary">Download Resume</a>
+                        <a
+                            href={`${import.meta.env.BASE_URL}resume.pdf`}
+                            download="Krishna_Kanhaiya_Resume.pdf"
+                            className="btn btn-primary"
+                        >
+                            Download Resume
+                        </a>
                         <a href="#contact" className="btn btn-outline">Contact Me</a>
                     </motion.div>
                 </motion.div>
