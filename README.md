@@ -1,50 +1,107 @@
-# Krishna Kanhaiya - Portfolio
+# Krishna Kanhaiya - Portfolio Website
 
-Welcome to my personal portfolio website. This project showcases my skills, experience, and projects as a Full Stack Developer and AI Enthusiast.
+Personal portfolio showcasing full-stack development skills, AI projects, and professional experience.
 
-## Tech Stack
+## Live Demo
 
-*   **Frontend**: React.js, Vite
-*   **Styling**: Vanilla CSS, Framer Motion (Animations)
-*   **Deployment**: GitHub Pages / Vercel
+[krishnakanhaiya1.github.io/PortfolioWebsite](https://krishnakanhaiya1.github.io/PortfolioWebsite/)
 
 ## Features
 
-*   **Responsive Design**: Optimized for all devices.
-*   **Interactive UI**: Smooth animations and transitions.
-*   **Project Showcase**: Highlighted work with live demos and GitHub links.
-*   **Resume Download**: Direct access to my latest CV.
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
+- **Smooth Animations**: Framer Motion animations for engaging interactions
+- **Project Showcase**: Featured projects with live demos and GitHub links
+- **Experience Section**: Professional background and work experience
+- **Skills Display**: Technical stack and competencies
+- **Contact Form**: Easy way to get in touch
+
+## Tech Stack
+
+- **Frontend**: React 19, Vite
+- **Styling**: CSS3, Vanilla CSS with animations
+- **Animations**: Framer Motion
+- **Icons**: React Icons
+- **Deployment**: GitHub Pages
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Navbar.jsx      # Navigation bar
+│   └── Footer.jsx      # Footer section
+├── sections/
+│   ├── Hero.jsx        # Hero/welcome section
+│   ├── About.jsx       # About me section
+│   ├── Experience.jsx  # Work experience
+│   ├── Projects.jsx    # Portfolio projects
+│   └── Contact.jsx     # Contact section
+├── constants.js        # Project and experience data
+├── App.jsx             # Main app component
+└── index.css           # Global styles
+```
 
 ## Getting Started
 
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/KrishnaKanhaiya1/portfolio.git
-    cd portfolio
-    ```
+### Prerequisites
+- Node.js 16+
+- npm or yarn
 
-2.  **Install dependencies**:
-    ```bash
-    npm install
-    ```
+### Installation
 
-3.  **Run locally**:
-    ```bash
-    npm run dev
-    ```
+1. Clone the repository:
+```bash
+git clone https://github.com/KrishnaKanhaiya1/PortfolioWebsite.git
+cd PortfolioWebsite
+```
 
-4.  **Build for production**:
-    ```bash
-    npm run build
-    ```
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Deployment
+3. Start development server:
+```bash
+npm run dev
+```
 
-To deploy to GitHub Pages:
+4. Open [http://localhost:5173](http://localhost:5173)
 
+## Building & Deployment
+
+### Build for production:
+```bash
+npm run build
+```
+
+### Deploy to GitHub Pages:
 ```bash
 npm run deploy
 ```
 
----
-© 2026 Krishna Kanhaiya. All rights reserved.
+The site will be available at `https://krishnakanhaiya1.github.io/PortfolioWebsite/`
+
+## Customization
+
+To customize the portfolio:
+
+1. **Edit projects and experience**: Update `src/constants.js`
+2. **Modify sections**: Edit files in `src/sections/`
+3. **Change styling**: Modify `src/index.css`
+4. **Update social links**: Edit `SOCIAL_LINKS` in `constants.js`
+
+## Performance
+
+- Fast development with Vite
+- Optimized builds for production
+- Lazy loading of heavy components
+- CSS animations for smooth interactions
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Author
+
+Krishna Kanhaiya  
+[GitHub](https://github.com/KrishnaKanhaiya1) | [LinkedIn](https://www.linkedin.com/in/krishna-kanhaiya/)
