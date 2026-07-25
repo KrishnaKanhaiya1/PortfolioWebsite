@@ -2,7 +2,7 @@ import { FaGithub, FaExternalLinkAlt, FaLinkedin, FaEnvelope } from 'react-icons
 
 export const SOCIAL_LINKS = [
     { name: "GitHub", url: "https://github.com/KrishnaKanhaiya1", icon: FaGithub },
-    { name: "LinkedIn", url: "https://www.linkedin.com/in/krishna-kanhaiya/", icon: FaLinkedin },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/krishna-kanhaiya-124080295/", icon: FaLinkedin },
     { name: "Email", url: "mailto:kanhaiya1krishna@gmail.com", icon: FaEnvelope }
 ];
 
@@ -31,6 +31,76 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
     {
+        title: "Three-Way Match Engine",
+        desc: "High-performance transactional reconciliation engine automating Purchase Order, Goods Receipt Note, and Invoice matching with fuzzy item comparison.",
+        tech: ["Node.js", "Express", "MongoDB", "Google Gemini API"],
+        links: {
+            github: "https://github.com/KrishnaKanhaiya1/Three-Way-MatchEngine",
+            demo: "https://github.com/KrishnaKanhaiya1/Three-Way-MatchEngine#readme"
+        },
+        category: "Backend & Systems"
+    },
+    {
+        title: "ITRCoPilot",
+        desc: "LangGraph-style multi-agent autonomous tax engine evaluating income tax returns, tax regimes, and multi-document compliance automatically.",
+        tech: ["Python", "LangGraph", "FastAPI", "Google Gemini API"],
+        links: {
+            github: "https://github.com/KrishnaKanhaiya1/ITRCoPilot",
+            demo: "https://itr-co-pilot.vercel.app/"
+        },
+        category: "AI/ML"
+    },
+    {
+        title: "SmartTour",
+        desc: "Next.js multi-agent travel assistant coordinating specialized sub-agents for real-time itinerary generation, food recommendations, and local safety protocols.",
+        tech: ["Next.js", "React", "Tailwind CSS", "Google Gemini API"],
+        links: {
+            github: "https://github.com/KrishnaKanhaiya1/smartTour",
+            demo: "https://smarttour-test.vercel.app/"
+        },
+        category: "AI/ML"
+    },
+    {
+        title: "Smart Incentive Calculator (SIC)",
+        desc: "Full-stack incentive calculation platform evaluating multi-tier sales performance metrics, dynamic formulas, and regional commission rules.",
+        tech: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
+        links: {
+            github: "https://github.com/KrishnaKanhaiya1/Smart-Incentive-Calculator",
+            demo: "https://smart-incentive-calculator-gamma.vercel.app/"
+        },
+        category: "Web Development"
+    },
+    {
+        title: "NaviMoney (finLiteracy)",
+        desc: "Production-grade youth financial literacy platform featuring gamified micro-lessons, live stock trading simulator, and automated SMS alerts.",
+        tech: ["Next.js", "Express", "TypeScript", "PostgreSQL", "Docker"],
+        links: {
+            github: "https://github.com/KrishnaKanhaiya1/finLiteracy",
+            demo: "https://github.com/KrishnaKanhaiya1/finLiteracy#readme"
+        },
+        category: "Web Development"
+    },
+    {
+        title: "CoastGuard AI",
+        desc: "Maritime hazard warning system merging satellite geospatial intelligence with crowdsourced indigenous knowledge to deliver hyperlocal risk scores.",
+        tech: ["Streamlit", "Python", "Geospatial ML", "TensorFlow"],
+        links: {
+            github: "https://github.com/KrishnaKanhaiya1/CoastGuardAI",
+            demo: "https://coastguard-by-krishna-kanhaiya.streamlit.app/"
+        },
+        category: "AI/ML"
+    },
+    {
+        title: "LawBuddy",
+        desc: "Legal RAG platform indexing legal contracts, NDAs, and case memos for natural language vector retrieval and Gemini API constrained QA.",
+        tech: ["Python", "Gemini API", "ChromaDB", "SentenceTransformers"],
+        links: {
+            github: "https://github.com/KrishnaKanhaiya1/LawBuddy",
+            demo: "https://github.com/KrishnaKanhaiya1/LawBuddy#readme"
+        },
+        category: "AI/ML"
+    },
+    {
         title: "YelpCamp",
         desc: "Full-stack web application for reviewing and sharing campgrounds with secure authentication and user reviews.",
         tech: ["Node.js", "Express", "MongoDB", "Bootstrap"],
@@ -46,53 +116,5 @@ export const PROJECTS = [
             demo: "https://krishnakanhaiya.fwh.is/"
         },
         category: "Web Development"
-    },
-    {
-        title: "UdaanCoach",
-        desc: "AI coaching platform that analyzes soft skills and provides multilingual suggestions for improvement.",
-        tech: ["FastAPI", "React", "PostgreSQL", "Gemini API"],
-        links: { github: "https://github.com/KrishnaKanhaiya1/wat-analyzer" },
-        category: "AI/ML"
-    },
-    {
-        title: "SmartTour",
-        desc: "AI travel companion that generates personalized itineraries, finds restaurants, and provides safety information.",
-        tech: ["Next.js", "React", "Tailwind CSS", "Node.js"],
-        links: {
-            github: "https://github.com/KrishnaKanhaiya1/smartTour",
-            demo: "https://smarttour-test.vercel.app/"
-        },
-        category: "AI/ML"
-    },
-    {
-        title: "ITRCoPilot",
-        desc: "AI assistant for income tax filing that processes documents and generates tax forms automatically.",
-        tech: ["Python", "FastAPI", "React", "LLM Agents"],
-        links: {
-            github: "https://github.com/KrishnaKanhaiya1/ITRCoPilot",
-            demo: "https://itr-co-pilot.vercel.app/"
-        },
-        category: "AI/ML"
-    },
-    {
-        title: "CoastGuard AI",
-        desc: "Maritime surveillance system using computer vision for real-time monitoring and emergency response.",
-        tech: ["Streamlit", "Python", "Computer Vision", "TensorFlow"],
-        links: { github: "https://github.com/KrishnaKanhaiya1/CoastGuardAI", demo: "https://coastguard-by-krishna-kanhaiya.streamlit.app/" },
-        category: "AI/ML"
-    },
-    {
-        title: "Student Professor Portal",
-        desc: "Academic management platform for communication and resource sharing between students and professors.",
-        tech: ["PHP", "MySQL", "HTML/CSS", "JavaScript"],
-        links: { github: "https://github.com/krishnakanhaiya/PHP-Profrssor-and-Student-Portal-" },
-        category: "Web Development"
-    },
-    {
-        title: "Music Recommendation System",
-        desc: "Recommendation engine using cosine similarity to suggest songs based on user preferences.",
-        tech: ["Python", "Pandas", "Scikit-learn", "Jupyter"],
-        links: { github: "https://github.com/KrishnaKanhaiya1/musicRecommendationSystem" },
-        category: "Data Science"
     }
 ];
