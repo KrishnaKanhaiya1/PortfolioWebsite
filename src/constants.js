@@ -12,11 +12,11 @@ export const EXPERIENCES = [
         company: "EDU-LEARNING SPAZE PVT LTD",
         duration: "May 2026 – Present",
         description: [
-            "Engineered the Core Study-Time Planner: Architected and developed the end-to-end Study-Time Management module in Next.js. Engineered a client-side feasibility algorithm that dynamic-allocates hours based on exam dates, calculates course-completion metrics, and visualizes scheduling trajectories using custom Gantt-style interfaces.",
-            "Resolved Critical SSR Hydration & State Issues: Solved persistent Next.js server-side rendering (SSR) hydration mismatches and client-side mounting race conditions. Implemented a robust state serialization layer utilizing React hooks and localStorage to guarantee 100% data persistence without rendering flickering.",
-            "Designed a Scalable Component Design System: Spearheaded the integration of a unified design system combining Material UI and Tailwind CSS. Refactored bloated, legacy forms into a library of modular, typesafe components (custom DatePicker, real-time error snackbars, and normalized inputs), reducing code duplication across the repository by over 30%.",
-            "Developed Automated Preview Export Pipelines: Authored a headless browser automation script using Puppeteer and Node.js to dynamically compile, inline local CSS stylesheets, and serialize complex, state-driven React pages into single-file, portable HTML previews for zero-dependency external sharing.",
-            "Led Repository Migration & Conflict Resolution: Managed the integration of extensive upstream updates from the remote GitHub repository into the local codebase. Resolved complex multi-file merge conflicts in Next.js layouts and components, ensuring a clean git tree and zero regressions during final pull requests."
+            "Engineered Study-Time Planner in Next.js with dynamic hour-allocation algorithms and Gantt-style interfaces.",
+            "Resolved Next.js SSR hydration mismatches & mounting race conditions using React state serialization and localStorage.",
+            "Integrated MUI & Tailwind CSS design system with typesafe components, cutting code duplication by over 30%.",
+            "Developed automated preview export pipelines using Puppeteer and Node.js for zero-dependency HTML sharing.",
+            "Managed upstream git repository migrations and resolved multi-file Next.js layout merge conflicts."
         ]
     },
     {
