@@ -43,24 +43,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
     {
-        title: "Three-Way Match Engine",
-        desc: "High-performance transactional reconciliation engine automating Purchase Order, Goods Receipt Note, and Invoice matching with fuzzy item comparison.",
-        tech: ["Node.js", "Express", "MongoDB", "Google Gemini API"],
+        title: "Smart Incentive Calculator (SIC)",
+        desc: "Full-stack incentive calculation platform evaluating multi-tier sales performance metrics, dynamic formulas, and regional commission rules.",
+        tech: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
         links: {
-            github: "https://github.com/KrishnaKanhaiya1/Three-Way-MatchEngine",
-            demo: "https://github.com/KrishnaKanhaiya1/Three-Way-MatchEngine#readme"
+            github: "https://github.com/KrishnaKanhaiya1/Smart-Incentive-Calculator",
+            demo: "https://smart-incentive-calculator-gamma.vercel.app/"
         },
-        category: "Backend & Systems"
-    },
-    {
-        title: "ITRCoPilot",
-        desc: "LangGraph-style multi-agent autonomous tax engine evaluating income tax returns, tax regimes, and multi-document compliance automatically.",
-        tech: ["Python", "LangGraph", "FastAPI", "Google Gemini API"],
-        links: {
-            github: "https://github.com/KrishnaKanhaiya1/ITRCoPilot",
-            demo: "https://itr-co-pilot.vercel.app/"
-        },
-        category: "AI/ML"
+        category: "Web Development"
     },
     {
         title: "SmartTour",
@@ -73,14 +63,41 @@ export const PROJECTS = [
         category: "AI/ML"
     },
     {
-        title: "Smart Incentive Calculator (SIC)",
-        desc: "Full-stack incentive calculation platform evaluating multi-tier sales performance metrics, dynamic formulas, and regional commission rules.",
-        tech: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
+        title: "CoastGuard AI",
+        desc: "Maritime hazard warning system merging satellite geospatial intelligence with crowdsourced indigenous knowledge to deliver hyperlocal risk scores.",
+        tech: ["Streamlit", "Python", "Geospatial ML", "TensorFlow"],
         links: {
-            github: "https://github.com/KrishnaKanhaiya1/Smart-Incentive-Calculator",
-            demo: "https://smart-incentive-calculator-gamma.vercel.app/"
+            github: "https://github.com/KrishnaKanhaiya1/CoastGuardAI",
+            demo: "https://coastguard-by-krishna-kanhaiya.streamlit.app/"
         },
+        category: "AI/ML"
+    },
+    {
+        title: "ITRCoPilot",
+        desc: "LangGraph-style multi-agent autonomous tax engine evaluating income tax returns, tax regimes, and multi-document compliance automatically.",
+        tech: ["Python", "LangGraph", "FastAPI", "Google Gemini API"],
+        links: {
+            github: "https://github.com/KrishnaKanhaiya1/ITRCoPilot",
+            demo: "https://itr-co-pilot.vercel.app/"
+        },
+        category: "AI/ML"
+    },
+    {
+        title: "YelpCamp",
+        desc: "Full-stack web application for reviewing and sharing campgrounds with secure authentication and user reviews.",
+        tech: ["Node.js", "Express", "MongoDB", "Bootstrap"],
+        links: { demo: "https://yelpcamp-e313.onrender.com/" },
         category: "Web Development"
+    },
+    {
+        title: "Three-Way Match Engine",
+        desc: "High-performance transactional reconciliation engine automating Purchase Order, Goods Receipt Note, and Invoice matching with fuzzy item comparison.",
+        tech: ["Node.js", "Express", "MongoDB", "Google Gemini API"],
+        links: {
+            github: "https://github.com/KrishnaKanhaiya1/Three-Way-MatchEngine",
+            demo: "https://github.com/KrishnaKanhaiya1/Three-Way-MatchEngine#readme"
+        },
+        category: "Backend & Systems"
     },
     {
         title: "NaviMoney (finLiteracy)",
@@ -93,16 +110,6 @@ export const PROJECTS = [
         category: "Web Development"
     },
     {
-        title: "CoastGuard AI",
-        desc: "Maritime hazard warning system merging satellite geospatial intelligence with crowdsourced indigenous knowledge to deliver hyperlocal risk scores.",
-        tech: ["Streamlit", "Python", "Geospatial ML", "TensorFlow"],
-        links: {
-            github: "https://github.com/KrishnaKanhaiya1/CoastGuardAI",
-            demo: "https://coastguard-by-krishna-kanhaiya.streamlit.app/"
-        },
-        category: "AI/ML"
-    },
-    {
         title: "LawBuddy",
         desc: "Legal RAG platform indexing legal contracts, NDAs, and case memos for natural language vector retrieval and Gemini API constrained QA.",
         tech: ["Python", "Gemini API", "ChromaDB", "SentenceTransformers"],
@@ -111,13 +118,6 @@ export const PROJECTS = [
             demo: "https://github.com/KrishnaKanhaiya1/LawBuddy#readme"
         },
         category: "AI/ML"
-    },
-    {
-        title: "YelpCamp",
-        desc: "Full-stack web application for reviewing and sharing campgrounds with secure authentication and user reviews.",
-        tech: ["Node.js", "Express", "MongoDB", "Bootstrap"],
-        links: { demo: "https://yelpcamp-e313.onrender.com/" },
-        category: "Web Development"
     },
     {
         title: "Car Rental Agency",
